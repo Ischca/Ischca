@@ -28,7 +28,8 @@
 
 ## 📈 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ischca&show_icons=true&theme=tokyonight&hide_border=true&hide_rank=true" />
+  <img align="top" src="https://github-readme-stats.vercel.app/api?username=Ischca&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ischca&show_icons=true&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
