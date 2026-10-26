@@ -1,46 +1,84 @@
-<p align="center">
-  <img src="assets/header.png" alt="banner" width="600" />
-</p>
+# Shota Watanabe (Ischca)
 
-<h1 align="center">Ischca 👋</h1>
-<p align="center">
-  <em>Full‑stack engineer @ Creatures Inc.</em>
-</p>
+Backend / full-stack engineer based in Tokyo, Japan, with around 10 years of experience. Currently at AppBrew; previously at Creatures, ClinCloud, and HashPort.
 
----
+I design, build, and operate production systems, with experience spanning multi-tenant backends, internal platforms, APIs, and independently built products.
 
-## 🚀 Featured Projects
+Open to ongoing part-time backend/platform contracting, with fully asynchronous, written-only collaboration through GitHub, Slack, and documentation.
 
-| | |
-|---|---|
-| <img src="assets/taskvision.png" width="260"/> | **TaskVision**<br><sub>「次の 1 時間」にフォーカスする TODO。</sub><br><br>`Next.js` `Supabase` `TailwindCSS`  → [Product](https://task-vision.com/) |
+## Selected Engineering Work
 
----
+### ClinCloud — Multi-tenant Clinical EDC Platform | Lead Engineer / Full-stack
 
-## 🛠 Tech I Love
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
-![Scala](https://img.shields.io/badge/Scala-DC322F?logo=scala&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white)
+**Kotlin/Ktor · TypeScript**
 
----
+Led the architecture, implementation, and production operations of a multi-tenant Electronic Data Capture (EDC) platform supporting clinical workflows for pharmaceutical customers.
 
-## 📈 GitHub Stats
-<p align="center">
-  <img align="top" src="https://github-readme-stats.vercel.app/api?username=Ischca&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ischca&show_icons=true&theme=tokyonight&hide_border=true" />
-</p>
+- Developed backend and frontend functionality, including tenant isolation and access control.
+- Implemented audit trails capturing user attribution, timestamps, and data changes to support traceability in regulated clinical workflows.
+- Owned development across the application lifecycle, from design through production maintenance.
 
----
+### Creatures — Pokémon TCG Internal Data Platform | Full-stack Engineer
 
-## 🤝 Contact & Links
-[![Twitter](https://img.shields.io/badge/X-1DA1F2?logo=x&logoColor=white)](https://twitter.com/ischca_dev)
-[![Blog](https://img.shields.io/badge/Blog-222?logo=dev.to&logoColor=white)](https://blog.ischca.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shota-watanabe-16547a20b/)
+**Scala/Play · Angular · TypeScript · MySQL · GCP/GKE · Terraform**
 
+Developed and maintained an internal information platform for the Pokémon Trading Card Game development team, managing card, product, and illustration data.
 
-<!-- ### 📝 Maintainers Note
-- 画像は 500 kB 以下推奨（表示高速化）。
-- **自動更新**: `waka-readme`, `metrics`, ランダムポケモン生成などは GitHub Actions で定期実行。
-- 四半期ごとに README をレビューして最新状態を保つこと。 -->
+- Implemented complex domain-specific business rules, administrative configuration interfaces, and cross-system data synchronization.
+- Developed access control and spreadsheet-style data editing workflows.
+- Modernized the Angular frontend with Standalone Components, Typed Forms, and JSpreadsheet, delivering the changes to production.
+
+### Creatures — Generative AI Game Platform | Technical Lead / Engineer
+
+**Go/Gin · Next.js · YAML · CEL · Claude · Gemini**
+
+Served as the sole engineer on a cross-functional team of approximately four people, also handling technical leadership and project management.
+
+- Designed and implemented a shared, declarative game runtime using YAML and Common Expression Language (CEL).
+- Built configuration-driven state transitions, scenario branching, character behavior, and dynamic LLM prompt/context selection.
+- Integrated Anthropic Claude and Google Gemini.
+- Delivered novel-writing and music-making applications for internal/limited release within approximately two months.
+
+### HashPort — Multi-chain Wallet Backend | Backend Engineer
+
+**TypeScript · Ethereum · Tezos · Bitcoin · PLT**
+
+Developed wallet backend APIs and transaction workflows across multiple blockchain networks, including chain-specific integrations for asset transfers.
+
+## Featured Public Work
+
+### [KUE](https://github.com/Ischca/kue) — Multi-platform Visual Bug Reporting SDK
+
+Open source (MIT) · [Documentation](https://kue.ischca.dev/en/docs)
+
+Developed a cross-platform SDK and setup CLI for capturing, annotating, and submitting visual bug reports directly from mobile applications.
+
+- Supports Expo / React Native, native iOS and Android, and Flutter.
+- Distributed through npm, Swift Package Manager, Maven Central, and pub.dev.
+- Offers custom submission callbacks or an optional hosted service, KUE Cloud.
+
+### [Storiiva](https://storiiva.com/) — Web Novel Publishing Platform
+
+Live product · [Japanese site](https://storiiva.com/ja)
+
+Independently developed and operate a web platform for publishing and discovering fiction, including AI-assisted works.
+
+- Authors can publish stories; readers can discover and read published episodes without an account.
+- Supports multilingual publishing and discovery.
+- Built with Next.js, TypeScript, Supabase, and LLM integrations.
+
+## Tech Stack
+
+**Languages:** TypeScript, Kotlin, Go, Scala, Python, Java  
+**Backend / APIs:** Ktor, Play Framework, Gin, Node.js, GraphQL  
+**Frontend:** React, Next.js, Angular  
+**Data:** MySQL, Redis, Supabase  
+**Cloud & infrastructure:** AWS, GCP/GKE, Docker, Terraform  
+**Mobile:** Expo / React Native, native iOS / Android, Flutter  
+**Other:** YAML/CEL, LLM integrations, blockchain wallet APIs
+
+## Contact
+
+- GitHub: https://github.com/Ischca
+- LinkedIn: https://jp.linkedin.com/in/shota-watanabe-16547a20b
+
