@@ -1,6 +1,6 @@
 # Shota Watanabe (Ischca)
 
-Backend / full-stack engineer based in Tokyo, Japan, with around 10 years of experience. Currently at AppBrew; previously at Creatures, ClinCloud, and HashPort.
+Backend / full-stack engineer based in Tokyo, Japan, with around 10 years of experience. Currently at AppBrew; previously at Creatures and HashPort. Led architecture and production operations for ClinCloud's multi-tenant clinical EDC platform.
 
 I design, build, and operate production systems, with experience spanning multi-tenant backends, internal platforms, APIs, and independently built products.
 
